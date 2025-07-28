@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio de Diseño Gráfico</title>
+    <style>
+        /* Estilos CSS básicos para que se vea un poco mejor */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #444;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .about, .portfolio, .contact {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .portfolio-item h3 {
+            margin-top: 10px;
+            color: #555;
+        }
+        .contact p {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Tu Nombre]</h1>
+        <p>Diseñador Gráfico</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy [Tu Nombre], un diseñador gráfico apasionado con [Número] años de experiencia en la creación de soluciones visuales impactantes y efectivas. Mi objetivo es transformar ideas en diseños que no solo sean estéticamente atractivos, sino que también comuniquen mensajes claros y alcancen los objetivos de mis clientes.</p>
+            <p>Especializado en branding, diseño editorial, ilustración y diseño web, disfruto cada etapa del proceso creativo, desde la conceptualización hasta la entrega final. Siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer en el mundo del diseño.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Mi Portafolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300?text=Proyecto+1" alt="Descripción del Proyecto 1">
+                    <h3>Nombre del Proyecto 1</h3>
+                    <p>Diseño de logotipo y branding para una empresa de tecnología.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300?text=Proyecto+2" alt="Descripción del Proyecto 2">
+                    <h3>Nombre del Proyecto 2</h3>
+                    <p>Diseño de una revista digital para una publicación de moda.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300?text=Proyecto+3" alt="Descripción del Proyecto 3">
+                    <h3>Nombre del Proyecto 3</h3>
+                    <p>Ilustraciones personalizadas para un libro infantil.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contacto</h2>
+            <p>¡Me encantaría saber de ti! Puedes contactarme a través de:</p>
+            <p><strong>Correo electrónico:</strong> <a href="mailto:tu.correo@example.com">tu.correo@example.com</a></p>
+            <p><strong>Teléfono:</strong> [Tu Número de Teléfono]</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></p>
+            <p><strong>Behance/Dribbble (si tienes):</strong> <a href="https://www.behance.net/tuperfil" target="_blank">behance.net/tuperfil</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
